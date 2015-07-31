@@ -190,7 +190,7 @@ void Crawler::downLoadImg(vector<string>& imgurls, const string& url)
 		cout << "Can not create directory:" << foldname << endl;
 	}
 
-	for (int i = 0; i < imgurls.size(); ++i)
+	for (int i = 0; i < (int)imgurls.size(); ++i)
 	{
 		/// ÅÐ¶ÏÊÇ·ñÎªÍ¼Æ¬£¬bmp£¬jpg£¬jpeg£¬gif
 		string str = imgurls[i];
